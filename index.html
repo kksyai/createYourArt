@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Log page</title>
+</head>
+<body>
+    <h1 class="userName" id = 'username'>User 1234</h1>
+    <form action="https://kksyai.com" method="POST" class="submitForm"> <!-- submit" method="GET -->
+        <label for="projectTitle" class="formTitle">Project title</label>
+            <input class='formItem' id='projectTitle' type ="text" placeholder="named your project" required autofocus>
+        <label for="projectDescription" class="formTitle">Project description</label>
+            <textarea class='formItem' id ='projectDescription' placeholder="describe your project" required rows = '5'></textarea>
+        
+            <button class='submitButtonStyle' id='submitButton' type="submit" disabled>Submit</button>
+    </form>
+
+    <!-- <div id="popup">
+        <div class="popup-wrapper">Your project has been added
+            <button class="close" title="закрыть" id="closeButton"></button>
+        </div>
+    </div> -->
+
+    <script src="main.js"></script>
+</body>
+</html>

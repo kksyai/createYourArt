@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    min-width: 320px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userName {
+    
+    text-align: center;
+}
+
+.submitForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formTitle {
+    font-weight: 700;
+    align-self: flex-start;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.formItem {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    min-width: 80%;
+    max-width: 80%;
+}
+
+.formItem:last-child {
+    margin-bottom: 0;
+}
+
+.submitForm #submitButton {
+    width: 130px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: greenyellow;
+}
+
+/* #popup {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+.popup-wrapper {
+    display: flex;
+    z-index: 1000;
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    top: -35px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+}
+
+.close::before, .close::after {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.close::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.close::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+} */
